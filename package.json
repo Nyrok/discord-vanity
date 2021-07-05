@@ -1,0 +1,32 @@
+{
+  "name": "discord-vanity",
+  "version": "1.0.0",
+  "description": "A discord.js extension to set a new vanity URL for your guild.",
+  "main": "main.js",
+  "dependencies": {
+    "node-fetch": "^2.6.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "setVanityURL(client, guild, url)"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Nyrok/discord-vanity.git"
+  },
+  "keywords": [
+    "discord.js",
+    "discord",
+    "vanity-url",
+    "vanity",
+    "guild",
+    "src",
+    "nyrok"
+  ],
+  "author": "@Nyrok10 on Twitter",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Nyrok/discord-vanity/issues"
+  },
+  "homepage": "https://github.com/Nyrok/discord-vanity#readme"
+}
