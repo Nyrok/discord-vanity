@@ -21,7 +21,7 @@ client.login('YOUR_CLIENT_TOKEN');
 # Install
 `npm install discord-reply`
 # Changelog
-## * **1.0.11**
+## * **1.0.12**
     * Adding README.md file.
     * Adding discord.js and colors package.
     * Fix of wrong client user.
