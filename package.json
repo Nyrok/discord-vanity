@@ -1,9 +1,11 @@
 {
   "name": "discord-vanity",
-  "version": "1.0.0",
+  "version": "1.0.13",
   "description": "A discord.js extension to set a new vanity URL for your guild.",
   "main": "main.js",
   "dependencies": {
+    "colors": "^1.4.0",
+    "discord.js": "^12.5.3",
     "node-fetch": "^2.6.1"
   },
   "devDependencies": {},
