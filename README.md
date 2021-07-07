@@ -1,5 +1,8 @@
 # discord-vanity [![](https://img.shields.io/badge/Made%20with-%F0%9F%92%96-red)](https://www.npmjs.com/package/discord-vanity)
 > **A discord.js extension to set a new vanity URL for your guild.**
+# Needs
+  * **Client** (with Token)
+  * **Guild with vanity URL feature** (Boost lvl 3)
 # Usage 
 ### Example Usage with Message Listener :
 ```js
@@ -21,12 +24,12 @@ client.login('YOUR_CLIENT_TOKEN');
 # Install
 `npm install discord-reply`
 # Changelog
-## * **1.0.12**
+## * **1.0.13**
     * Adding README.md file.
-    * Adding discord.js and colors package.
+    * Adding discord.js and colors's packages.
     * Fix of wrong client user.
-    * Fix of guild missing permission.
-    * Fix of guild member doesn't have permission 'MANAGE_GUILD'
+    * Fix of guild missing feature.
+    * Fix of client doesn't have permission 'MANAGE_GUILD'
 # License
 Apache-2.0 - [Nyrok](https://github.com/Nyrok)
 
