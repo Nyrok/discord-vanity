@@ -19,14 +19,14 @@ client.login('YOUR_CLIENT_TOKEN');
 ```
 **Test with your client : "`!vanity nyrok`"**
 # Install
-> `npm install discord-reply`
+`npm install discord-reply`
 # Changelog
-* **1.0.1**
-* Adding README.md file.
-* Adding discord.js and colors package.
-* Fix of wrong client user.
-* Fix of guild missing permission.
-* Fix of guild member doesn't have permission 'MANAGE_GUILD'
+## * **1.0.1**
+    * Adding README.md file.
+    * Adding discord.js and colors package.
+    * Fix of wrong client user.
+    * Fix of guild missing permission.
+    * Fix of guild member doesn't have permission 'MANAGE_GUILD'
 # License
 Apache-2.0 - [Nyrok](https://github.com/Nyrok)
 
