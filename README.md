@@ -6,14 +6,14 @@
 # Usage 
 ### Example Usage with Message Listener :
 ```js
-const Discord = require("discord.js");
-const client = new Discord.Client();
-const vanity = require('discord-vanity');
+const { Client, Structures } = require("discord.js");
+const client = new Client();
+require('discord-vanity')(Structures);
 
 client.on('message', message => {
   if(message.content.startsWith("!vanity")){
     const url = message.content.split(" ").slice(1);
-    vanity.setVanityURL(client, message.guild, url);
+    message.guild.setVanityURL(url);
     message.reply("The vanity url has been changed to " + url)
   }
 })
@@ -24,12 +24,9 @@ client.login('YOUR_CLIENT_TOKEN');
 # Install
 `npm install discord-reply`
 # Changelog
-## * **1.0.13**
-    * Adding README.md file.
-    * Adding discord.js and colors's packages.
-    * Fix of wrong client user.
-    * Fix of guild missing feature.
-    * Fix of client doesn't have permission 'MANAGE_GUILD'
+## * **1.1.0**
+    * Adding guild.<functions> extension according with [Discord.js](https://www.npmjs.com/package/discord.js).
+    * Optimizing error's management.
 # License
 Apache-2.0 - [Nyrok](https://github.com/Nyrok)
 
