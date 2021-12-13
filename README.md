@@ -22,7 +22,7 @@ client.login('YOUR_CLIENT_TOKEN');
 ```
 **Test with your client : "`!vanity nyrok`"**
 # Install
-`npm install discord-reply`
+`npm install discord-vanity`
 # Changelog
 ## * **1.1.0**
     * Adding guild.<functions> extension according with [Discord.js](https://www.npmjs.com/package/discord.js).
